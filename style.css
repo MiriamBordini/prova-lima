@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffee00, #2e28d5);
+    font-weight: bold;
+    font-size: large;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url('imagem12.webp');
+    background-size: cover;
+    
+    
+    
+   
+}
+
+.content {
+        color: white;
+        text-align: center;
+        padding: 100px;
+    }
+
+
+header {
+    background: linear-gradient(to right, #e1454a, #ece5e6);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: s#2900f6;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #f44336;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #f44336;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: linear-gradient(to right, #ffee00, #2e28d5);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card img {
+    border-radius: 10px;
+    object-fit: contain;
+    width: 200px;
+    height: 300px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+form {
+    background: linear-gradient(to right, #ffee00, #2e28d5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #f44336;
+    border-radius: 10px;
+}
+
+form button {
+    padding: 10px;
+    background: linear-gradient(to right, #e75f5f, #63090c);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+form button:hover {
+    background-color: rgb(231, 15, 15);
+}
+
+
+footer {
+    width: 100vw;
+    background: #e92011;
+    color: white;
+    padding: 1vw;
+
+    .copy {
+        text-align: center;
+        padding: 2vw;
+    }
+
+    .redes-sociais {
+        margin-top: 1vw;
+    }
+
+    .redes-sociais a {
+        color: white;
+        margin: 0 1vw;
+        text-decoration: none;
+    }
+
+    .redes-sociais a:hover {
+        color: #ffcc00;
+    }
+}
